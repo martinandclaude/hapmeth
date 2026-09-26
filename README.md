@@ -22,7 +22,9 @@ added with a BED file.
 |---|---|
 | ![overview](docs/example_overview.png) | ![KvDMR1](docs/example_KvDMR1.png) |
 
-<sub>HG001, ONT public GIAB data (`giab_2025.01`, dorado v5 SUP 5mC_5hmC).</sub>
+<sub>Example data: HG001 from Oxford Nanopore's open
+[GIAB 2025.01 release](https://epi2me.nanoporetech.com/giab-2025.01/)
+(`s3://ont-open-data/giab_2025.01/`; dorado v5 SUP, 5mC_5hmC).</sub>
 
 ## Why it exists
 
@@ -32,8 +34,8 @@ in a female with random X-inactivation both X haplotypes sit near 50 % at these
 promoters. hapmeth turns that into a figure and a table in seconds, from one
 self-contained binary: no conda environment, Python, htslib, modkit or
 methylartist. It reads the MM/ML tags itself, and its per-CpG counts are
-identical to `modkit pileup`'s at 99.99 % of the CpGs tested in public HG001
-and HG002 data.
+identical to `modkit pileup`'s at 99.99 % of the CpGs tested, on HG001 and
+HG002 from the same GIAB release.
 
 ## Get it
 
