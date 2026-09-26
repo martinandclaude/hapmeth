@@ -1,0 +1,6 @@
+# qc_controls hs1: 4 regions, 0-based; lifted from hg38 with the T2T GRCh38->CHM13v2.0 chain
+#chrom	start	end	name	score	strand	gene	disease	origin	expected_lo	expected_hi	group	source
+chr12	6544451	6545797	GAPDH_promoter_CGI	0	.	GAPDH	biallelic_unmethylated_control	.	0.0	0.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
+chr15	42519238	42520123	B2M_promoter_CGI	0	.	B2M	biallelic_unmethylated_control	.	0.0	0.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
+chr19	52487144	52487674	RPL13A_promoter_CGI	0	.	RPL13A	biallelic_unmethylated_control	.	0.0	0.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
+chrX	152854205	152857200	CTAG1B_promoter_CGI	0	.	CTAG1B	biallelic_methylated_control_(cancer-testis;CTAG1A_paralog)	.	100.0	100.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2

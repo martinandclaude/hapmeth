@@ -1,0 +1,5 @@
+# xci_panel hg38: 3 regions, 0-based
+#chrom	start	end	name	score	strand	gene	disease	origin	expected_lo	expected_hi	group	source
+chrX	67543963	67544235	AR_promoter_CGI	0	.	AR	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt
+chrX	73851223	73854223	XIST_promoter_CGI	0	.	XIST	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt
+chrX	154097110	154098015	MECP2_promoter_CGI	0	.	MECP2	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt

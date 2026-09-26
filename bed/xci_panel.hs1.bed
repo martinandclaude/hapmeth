@@ -1,0 +1,5 @@
+# xci_panel hs1: 3 regions, 0-based; lifted from hg38 with the T2T GRCh38->CHM13v2.0 chain
+#chrom	start	end	name	score	strand	gene	disease	origin	expected_lo	expected_hi	group	source
+chrX	65973794	65974066	AR_promoter_CGI	0	.	AR	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
+chrX	72284538	72287539	XIST_promoter_CGI	0	.	XIST	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
+chrX	152370768	152371673	MECP2_promoter_CGI	0	.	MECP2	XCI_skew(female)	.	50.0	50.0	.	GTF+cpgIslandExt;lifted:grch38-chm13v2
