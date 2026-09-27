@@ -1,11 +1,13 @@
 # hapmeth
 
+S/O to [methylartist](https://github.com/adamewing/methylartist)
+
 Per-haplotype methylation plots at imprinting, X-inactivation and QC loci, from
 a haplotagged long-read modBAM.
 
 ## What it does
 
-hapmeth takes a haplotagged Oxford Nanopore modBAM or CRAM, splits the reads by
+hapmeth takes a haplotagged modBAM or CRAM, splits the reads by
 haplotype and plots CpG 5mC per haplotype at a built-in set of loci, for
 **hg38** and **hs1**:
 
@@ -31,8 +33,8 @@ added with a BED file.
 A haplotype-resolved long-read genome shows imprinting and X-inactivation
 directly. At an imprinted DMR one haplotype is methylated and the other is not;
 in a female with random X-inactivation both X haplotypes sit near 50 % at these
-promoters. hapmeth turns that into a figure and a table in seconds, from one
-self-contained binary: no conda environment, Python, htslib, modkit or
+promoters. **hapmeth turns that into a figure and a table in seconds, from one
+self-contained binary**: no conda environment, Python, htslib, modkit or
 methylartist. It reads the MM/ML tags itself, and its per-CpG counts are
 identical to `modkit pileup`'s at 99.99 % of the CpGs tested, on HG001 and
 HG002 from the same GIAB release.
@@ -89,7 +91,9 @@ plots/<panel>/<locus>.png      one figure per locus
 
 `hapmeth --help` lists every option.
 
-**Your own loci:** pass a tab-separated BED with `--bed` (repeatable). BED3 or
+## Your own loci:
+
+Pass a tab-separated BED with `--bed` (repeatable). BED3 or
 BED4 is enough. A `#chrom` header naming extra columns (`gene`, `disease`,
 `origin`, `expected_lo`, `expected_hi`, `group`) adds labels, expected 5mC and
 the output subfolder, which is otherwise the file name. For example,
