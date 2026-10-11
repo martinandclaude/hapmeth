@@ -41,7 +41,13 @@ HG002 from the same GIAB release.
 
 ## Get it
 
-Download a binary from the
+From [Bioconda](https://anaconda.org/bioconda/hapmeth):
+
+```bash
+conda install -c conda-forge -c bioconda hapmeth
+```
+
+Or download a binary from the
 [releases page](https://github.com/martinandclaude/hapmeth/releases):
 `hapmeth-linux-x86_64.tar.gz` (static, runs on any x86_64 Linux) or
 `hapmeth-macos-universal.tar.gz` (Apple silicon and Intel).
