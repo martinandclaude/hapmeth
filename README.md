@@ -1,5 +1,7 @@
 # hapmeth
 
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](https://anaconda.org/bioconda/hapmeth)
+
 S/O to [methylartist](https://github.com/adamewing/methylartist)
 
 Per-haplotype methylation plots at imprinting, X-inactivation and QC loci, from
